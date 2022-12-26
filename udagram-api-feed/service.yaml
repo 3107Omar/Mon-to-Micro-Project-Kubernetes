@@ -6,7 +6,7 @@ metadata:
   name: udagram-api-feed-svc
 spec:
   ports:
-  - name: "8100"
+  - name: "8080"
     port: 8080
     targetPort: 8080
   selector:
