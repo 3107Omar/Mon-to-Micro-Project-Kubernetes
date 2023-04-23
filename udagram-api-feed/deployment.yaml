@@ -22,8 +22,8 @@ spec:
         - containerPort: 8080
         envFrom:
           - secretRef:
-              name: envsecret
+              name: env-secret
           - configMapRef:
-              name: envconfigmap
+              name: env-configmap
 
 
