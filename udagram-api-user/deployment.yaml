@@ -22,14 +22,7 @@ spec:
               name: envconfigmap
           - secretRef:
               name: envsecret
-        imagePullPolicy: Always
-        resources:
-          requests:
-            memory: "1024Mi"
-            cpu: "500m"
-          limits:
-            memory: "2048Mi"
-            cpu: "1000m"        
+        imagePullPolicy: Always     
         ports:
         - containerPort: 8080
 
